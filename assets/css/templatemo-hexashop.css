@@ -2403,8 +2403,37 @@ h2 {
       /* height: 10%; */
       margin-top: 30px;
     }
+
+    .home h2{
+      margin-top: 90px;
+      font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+      font-size: 35px;
+      /* padding: 80px 50px; */
+      text-align: center;
+      text-transform: uppercase;
+      text-rendering: optimizeLegibility;
+    }
+    .welcome{
+      font-weight: bold;
+      color: #e0dfdc;
+      /* background-color: #333; */
+      letter-spacing: .1em;
+      text-shadow: 
+        0 -1px 0 #fff, 
+        0 1px 0 #2e2e2e, 
+        0 2px 0 #2c2c2c, 
+        0 3px 0 #2a2a2a, 
+        0 4px 0 #282828, 
+        0 5px 0 #363535, 
+        0 6px 0 #2a2a2a, 
+        0 7px 0 #222, 
+        
+       
+        0 22px 30px rgba(34, 34, 34, 0.9);
+    }
+
     .home h1{
-      margin: 150px 0px 0px 0px;
+      margin: 120px 0px 0px 0px;
       font-family:monospace ;
       font-weight: bold;
       color: #000000;
@@ -2413,7 +2442,7 @@ h2 {
       
     }
     .home p{
-      margin: 0px -150px 0px 450px;
+      margin: 0px -125px 0px 450px;
       font-family:Verdana, Geneva, Tahoma, sans-serif;
       font-weight: 500;
       color: #f2efef;
@@ -2422,7 +2451,26 @@ h2 {
       text-align:left;
     }
 
-   
+    .btn{
+      background-color: #000000;
+      margin-left: 500px;
+      margin-top: 50px;
+    }
+    .btn:hover{
+      background-color: #7d7d7d;
+    }
+    .btn a{
+      color: #fff;
+      
+    }
+    .btn a:hover{
+      color: #000000;
+      font-weight: 700;
+      
+    }
+
+
+    
     .area{
       /* background: #4e54c8;   */
       background: -webkit-linear-gradient(to left, #222222, #4a4a4f);  
@@ -2698,14 +2746,26 @@ h1 {
         border-bottom: 1px solid #cacaca;
       }
 
+      .home h2{
+        margin-top: 60px;
+        font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+        font-size: 15px;
+        /* padding: 80px 50px; */
+        text-align: center;
+        text-transform: uppercase;
+        text-rendering: optimizeLegibility;
+        
+      }
+
       .home h1{
-        margin: 10px 0px 0px 0px;
+        margin: 60px 0px 0px 0px;
         font-family:monospace ;
         font-weight: bolder;
         color:#000000;
         text-align: center;
         font-size: 15px;
       }
+
       .home p{
         margin: 0px -30px 0px 150px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -2715,7 +2775,26 @@ h1 {
         font-size: 12px;
 
       }   
-      
+      .btn{
+        background-color: #000000;
+        margin-left: 120px;
+        margin-top: 50px;
+        font-size: small;
+      }
+      .btn:hover{
+        background-color: #7d7d7d;
+      }
+      .btn a{
+        color: #fff;
+        
+      }
+      .btn a:hover{
+        color: #000000;
+        font-weight: 700;
+        
+      }
+
+
       .projects h1{
         margin: 150px 0px 0px 0px;
         font-family:monospace ;
