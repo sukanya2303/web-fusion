@@ -2676,6 +2676,8 @@ h1 {
   font-family:monospace ;
   font-weight: bold;
   color: #6BAA00;
+  text-shadow: 2px 2px 4px #6d6d6d;
+
   text-align: center;
   background: rgb(70,70,70);
 background: linear-gradient(90deg, rgba(70,70,70,1) 13%, rgba(42,42,42,1) 22%, rgba(0,0,0,0.9332107843137255) 35%, rgba(0,0,0,0.9612219887955182) 50%, rgba(0,0,0,0.9220063025210083) 65%, rgba(42,42,42,1) 72%, rgba(70,70,70,1) 83%);
@@ -2819,7 +2821,8 @@ background: linear-gradient(90deg, rgba(70,70,70,1) 13%, rgba(42,42,42,1) 22%, r
         margin: 150px 0px 0px 0px;
         font-family:monospace ;
         font-weight: bolder;
-        color:#000000;
+        color: #6BAA00;
+  text-shadow: 2px 2px 4px #6d6d6d;
         text-align: center;
         font-size: 25px;
       }
