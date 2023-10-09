@@ -2307,12 +2307,12 @@ h2 {
   box-shadow: 2px 2px 2px 3px #1313135b;
 }
 .nav ul li a{
-  color: #78e35e;
+  color: #ffffff;
 
 }
 
 .nav ul li a:hover{
-  color: #9eca83cd;
+  color: #9e9e9ef9;
 
 }
 .active {
@@ -2322,7 +2322,7 @@ h2 {
   margin-top: -45px;
 }
 .menu li:hover{
-  color:rgba(144, 138, 138, 0.708);
+  color:rgba(156, 156, 156, 0.708);
   cursor:pointer;
   /* background-color:rgb(255, 255, 255); */
 
@@ -2404,7 +2404,7 @@ h2 {
 
     .home{
       /* height: 10%; */
-      margin-top: 30px;
+      margin-top: 70px;
     }
 
     /* .home h2{
@@ -2464,12 +2464,11 @@ h2 {
     .home .row .home-content-right img{
       width: 550px;
       height: 300px;
+      margin-left: 14px;
       border-radius:50px 0px 0px 50px;
     }
 
-
     .btn-home{
-      
       display: -webkit-inline-box;
       display: -ms-inline-flexbox;
       display: inline-flex;
@@ -2482,10 +2481,10 @@ h2 {
       color: #000000;
       background-color: #959595;
       position: relative;
-      margin: 50px 0px 0px 400px;
+      margin: 100px 0px 0px 400px;
     }
    .btn-home:hover{
-      background-color: #76b32c;
+      background-color: #6b6b6b;
       color: #000000;
     }
     
@@ -2624,6 +2623,7 @@ h1 {
 /* ------------------ Responsive -------------------- */
     
     /* Making the navbar responsive by CSS Media Queries */
+
     @media (max-width: 700px) {
 
       .logo{
@@ -2638,7 +2638,7 @@ h1 {
       .menu {
         position: absolute;
         top: 0;
-        margin-top: 50px;
+        margin-top: 70px;
         left: 0;
         flex-direction: column;
         width: 100%;
@@ -2652,7 +2652,7 @@ h1 {
         border: 0;
       }
       #menu-toggle:checked ~ .menu li {
-        border: 1px solid #9f9a9a;
+        border: 1px solid #212121;
         height: 2.5em;
         padding: 0.5em;
       }
@@ -2663,73 +2663,83 @@ h1 {
         padding: 0.5em 0;
         width: 100%;
         color: black;
-        background-color: #0b0b0b;
+        background-color: #464646;
         
       }
       .menu > li:hover{
-        background-color: #474747;
+        background-color: #313131;
       }
       .menu > li:not(:last-child) {
-        border-bottom: 1px solid #cacaca;
+        border-bottom1px solid #000000;
       }
 
-      /* .home h2{
-        margin-top: 60px;
+      .home h2{
+        margin-top: 70px;
         font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-        font-size: 15px;
-       
+        font-size: 1.2rem;
+        font-weight: bold;
+        font-style: italic;
         text-align: center;
         text-transform: uppercase;
         text-rendering: optimizeLegibility;
         
       }
 
-      .home h1{
-        margin: 60px 0px 0px 0px;
-        font-family:monospace ;
-        font-weight: bolder;
-        color:#000000;
-        text-align: center;
-        font-size: 15px;
+      .home .row{
+        margin: 50px 0px 0px 0px;
+      
+      } 
+  
+      .home .row .home-content-left{
+        /* background-color: #ffffff; */
       }
-
-      .home p{
-        margin: 0px -30px 0px 150px;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
+      .home .row .home-content-left h1{
+        font-family:monospace;
+        font-weight: bold;
+        margin-top: 30px;
+        font-size: 30px;
+      }
+      .home .row .home-content-left p{
+        margin-top: 20px;
+        font-size: 18px;
+        font-style: italic;
         font-weight: 500;
-        color: #ffffff;
-        text-align: left;
-        font-size: 12px;
-
-      }    */
+        text-decoration: underline red;
+        text-decoration-thickness: 3px;
+        text-decoration-skip-ink: none;
+      }
+  
+      .home .row .home-content-right{
+        margin-left: 50px;
+        margin-top: 30px;
+      }
+      .home .row .home-content-right img{
+        width: 350px;
+        height: 200px;
+        border-radius:50px 0px 0px 50px;
+      }
+  
+  
       .btn-home{
-        background-color: transparent; 
-        border: 2px solid #0a0a0a; 
-        margin-left: 90px;
-        margin-top: 50px;
-        font-size: small;
-        border-radius: 5px 5px;
-        /* cursor: pointer; 
-        border: 1px solid #3498db; 
-        background-color: transparent; 
-        height: 50px; 
-        width: 200px; 
-        color: #3498db; 
-        font-size: 1.5em; */
-        /* box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);  */
-      }
-      .btn-home:hover{
-        background-color: #838383;
-      }
-      .btn-home a{
-        color: #111111;
-        font-size: 0.7rem;
-      }
-      .btn-home a:hover{
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 16px;
+        padding: 17px 26px;
+        border-radius: 54px;
+        text-decoration: none;
         color: #000000;
-        font-weight: 700;
-        
+        background-color: #b0b0b0;
+        position: relative;
+        margin: 30px 0px 0px 70px;
       }
+     .btn-home:hover{
+        background-color: #686966;
+        color: #000000;
+
+     }
 
 
       .about .about-content h1{
@@ -2756,8 +2766,8 @@ h1 {
         margin: 150px 0px 0px 0px;
         font-family:monospace ;
         font-weight: bolder;
-        color: #6BAA00;
-        text-shadow: 2px 2px 4px #6d6d6d;
+        color: #000000;
+        /* text-shadow: 2px 2px 4px #6d6d6d; */
         text-align: center;
         font-size: 25px;
       }
@@ -2800,7 +2810,7 @@ h1 {
     text-align: justify;
     /* font-weight: 600; */
     color: #000000;
-    text-shadow: 2px 2px 4px #6BAA00;
+    /* text-shadow: 2px 2px 4px #6BAA00; */
   }
   .right-side .button input[type="button"]{
     color: #fff;
@@ -2914,7 +2924,7 @@ body{
   font-size: 30px;
   /* font-weight: 600; */
   color: #000000;
-  text-shadow: 2px 2px 4px #6BAA00;
+  /* text-shadow: 2px 2px 4px #6BAA00; */
 }
 .right-side .input-box{
   height: 50px;
@@ -2978,7 +2988,7 @@ body{
   text-align: justify;
   /* font-weight: 600; */
   color: #000000;
-  text-shadow: 2px 2px 4px #6BAA00;
+  /* text-shadow: 2px 2px 4px #6BAA00; */
 }
 .right-side .button input[type="button"]{
   color: #fff;
