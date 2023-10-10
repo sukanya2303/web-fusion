@@ -2035,45 +2035,6 @@ About Us Page
   font-style: italic;
 }
 
-.our-services {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  border-top: 3px dotted #eee;
-  border-bottom: 3px dotted #eee;
-}
-
-.our-services .section-heading {
-  margin-bottom: 60px;
-  text-align: center;
-}
-
-.our-services .section-heading h2 {
-  margin-bottom: 10px;
-}
-
-.our-services .service-item {
-  padding: 30px;
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.10);
-  text-align: center;
-}
-
-.our-services .service-item img {
-  width: 100%;
-  overflow: hidden;
-}
-
-.our-services .service-item h4 {
-  font-size: 24px;
-  font-weight: 700;
-  color: #2a2a2a;
-  margin-bottom: 20px;
-}
-
-.our-services .service-item p {
-  margin-bottom: 25px;
-}
-
-
 
 /* 
 ---------------------------------------------
@@ -2298,7 +2259,7 @@ h2 {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background: rgb(31, 31, 31);
+  background: rgb(39, 39, 39);
   color: #ffffff;
   height: 75px;
   padding: 1em;
@@ -2307,7 +2268,7 @@ h2 {
   box-shadow: 2px 2px 2px 3px #1313135b;
 }
 .nav ul li a{
-  color: #ffffff;
+  color: #b9b9b9;
 
 }
 
@@ -2522,12 +2483,23 @@ h2 {
     .about .about-content{
       margin-top: 40px;
     }
-
+    .about .about-content .about-head h1{
+      font-weight: bolder;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-size: 1.5rem;
+      color: #100f0f;
+      font-style: italic;
+      text-decoration: underline rgb(228, 5, 5);
+      text-decoration-thickness: 3px;
+      text-decoration-skip-ink: none;
+    }
     .about .about-content h1{
       font-weight: bolder;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       text-align: center;
-      color: #000000;
+      color: #161616;
+      font-size: 1.5rem;
     
     }
     .about .about-content p{
@@ -2537,6 +2509,7 @@ h2 {
       font-size: large;
       text-align: justify;
       font-weight: 500;
+      font-style: italic;
       
     }
     /* .about .about-content{
@@ -2627,10 +2600,10 @@ h1 {
     @media (max-width: 700px) {
 
       .logo{
-        width: 50px;
-        height: 40px;
-        margin-top: -5px;
-       margin-left: -160px;
+        width: 20px;
+        height: 10px;
+        margin-top: -40px;
+        margin-left: -160px;
       }
       .menu-button-container {
         display: flex;
@@ -2741,16 +2714,27 @@ h1 {
 
      }
 
+     .about .container .about-content .about-head h1{
+      font-weight: bolder;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-size: 1rem;
+      color: #100f0f;
+      font-style: italic;
+      text-decoration: underline rgb(228, 5, 5);
+      text-decoration-thickness: 3px;
+      text-decoration-skip-ink: none;
+    }
 
-      .about .about-content h1{
+      .about .container .about-content h1{
         font-weight: bolder;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-align: center;
-        font-size: 1.8rem;
+        font-size: 1.4rem;
         color: #000000;
-      text-shadow: 4px 4px 2px #6BAA00;
+    
       }
-      .about .about-content p{
+      .about .container .about-content p{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         margin: 0px 50px 0px 50px;
         color: #131313;
