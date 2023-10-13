@@ -28,7 +28,8 @@ Table of contents
 font & reset css
 --------------------------------------------- 
 */
-@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 /* 
 ---------------------------------------------
 reset
@@ -80,7 +81,7 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
   font-weight: 400;
   background-color: #fff;
   font-size: 16px;
@@ -116,7 +117,7 @@ global styles
 html,
 body {
   background: #ffffff;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
 }
 
 ::selection {
@@ -2405,7 +2406,7 @@ h2 {
       /* background-color: #ffffff; */
     }
     .home .row .home-content-left h1{
-      font-family:monospace;
+      /* font-family:monospace; */
       font-weight: bold;
       margin-top: 70px;
     }
@@ -2449,28 +2450,33 @@ h2 {
       color: #000000;
     }
     
-     /* .btn-home a{
-      color: #000000;
-      
-      font-size: 1.2rem;
-    }
-    .btn-home a:hover{
-      color: #000000;
-      
-      
-    } */
-
-
-    
     .area{
       /* background: #4e54c8;   */
       background: -webkit-linear-gradient(to left, #222222, #4a4a4f);  
       /* width: 100%; */
       height:20px;
-      
-     
   }
   
+.home .home-down{
+  margin-top: 40px;
+  background-color: #171616;
+  /* opacity: 1; */
+  padding-bottom: 40px;
+}
+  
+.home .home-down h2{
+  padding-top: 40px;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+.home .home-down p{
+  margin-top: 20px;
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+}
+    
   
 
 /* --------------------------------------- */
@@ -2480,14 +2486,35 @@ h2 {
 
 .services .services-main h2{
   margin: 60px 0px 0px 0px;
-  font-family:monospace ;
   font-weight: bold;
   color: #020202;
   font-size: 2rem;
   text-align: center;
 }  
 
+.services .services-content{
+  margin-top: 40px;
+  
+}
+.services .services-content .col-lg-6{
+  margin-top: 40px;
+  border-color: #000000;
+  border-width: 1px;
+  border-style:solid;
+  text-align: center;
+  /* margin-left: 1px; */
+}
+.services .services-content .col-lg-6 h3{
 
+  background-color: #707070;
+  border-style:solid;
+  text-align: center;
+  /* margin-left: 1px; */
+}
+
+.services .services-content .service-webdev{
+  width: 40%;
+}
 /* --------------------------------------- */
 /* --------------- About --------------- */
 /* --------------------------------------- */
@@ -2581,11 +2608,11 @@ h1 {
   /* background-color: #0000004f; */
 }
 
-.projects li &bullet;{
+/* .projects li &bullet;{
   color: #fff;
   font-size: large;
-  /* background-color: #0000004f; */
-}
+  
+} */
 .projects a{
   margin: 0px 0px 0px 0px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -2658,12 +2685,12 @@ h1 {
         border-bottom1px solid #000000;
       }
 
-      .home h2{
+      .home .welcome{
         margin-top: 70px;
         font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
         font-size: 1.2rem;
         font-weight: bold;
-        font-style: italic;
+        /* font-style: italic; */
         text-align: center;
         text-transform: uppercase;
         text-rendering: optimizeLegibility;
@@ -2679,7 +2706,7 @@ h1 {
         /* background-color: #ffffff; */
       }
       .home .row .home-content-left h1{
-        font-family:monospace;
+        /* font-family:monospace; */
         font-weight: bold;
         margin-top: 30px;
         font-size: 30px;
@@ -2704,12 +2731,19 @@ h1 {
         border-radius:50px 0px 0px 50px;
       }
   
+      .home .home-down h2{
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+      .home .home-down p{
+       
+      }
   
       .btn-home{
         display: -webkit-inline-box;
         display: -ms-inline-flexbox;
         display: inline-flex;
-        font-size: 15px;
+        font-size: 12px;
         font-weight: bold;
         line-height: 16px;
         padding: 17px 26px;
@@ -2718,7 +2752,7 @@ h1 {
         color: #000000;
         background-color: #b0b0b0;
         position: relative;
-        margin: 30px 0px 0px 70px;
+        margin: 30px 0px 0px 80px;   /* button responsive*/
       }
      .btn-home:hover{
         background-color: #686966;
@@ -2788,43 +2822,82 @@ h1 {
         text-align: justify
         ;
       } */
-    }
 
-    .content{
-      width: 100%;
-      padding: 30px 30px 40px 35px ;
+      /* contact responsive  */
+
+   
+      .content .right-side .topic-text{
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 1rem;
+        text-align: justify;
+        /* font-weight: 600; */
+        color: #000000;
+        /* text-shadow: 2px 2px 4px #6BAA00; */
+      }
+      .content .right-side form{
+        margin-top: 20px;
+      }
+      .content .right-side label{
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 1rem;
+        /* font-weight: 600; */
+        color: #000000;
+        /* text-shadow: 2px 2px 4px #6BAA00; */
+      }
+      .content .right-side .form-control{
+        height: 40px;
+        width: 100%;
+        margin: 0 0 10px 0;
+      }
+      
+      .content .right-side input{
+        height: 100%;
+        width: 100%;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        background: #F0F1F8;
+        border-radius: 6px;
+        padding: 0 15px;
+        resize: none;
+      }
+      .content .right-side textarea{
+        min-height: 110px;
+        position: relative;
+        height: 40px;
+        width: 100%;
+        margin: 0 0 10px 0;
+        background: #F0F1F8;
+        border-radius: 6px; 
+        border: none;
+        outline: none;
+        font-size: 12px;
+        padding: 0 15px;
+      }
+      .content .right-side .button-submit{
+        display: inline-block;
+        margin-top: 12px;
+        margin-left: 60px;
+        width: 150px;
+        height: 35px;
+        
+      }
+      .content .right-side .button-submit input{
+        background-color: #1a1a1a;
+        color: #fff;
+      }
+      
+      .content .right-side .button-submit input:hover{
+        display: inline-block;
+        width: 150px;
+        height: 35px;
+        background-color: #404040db;
+      }
+
+      
     }
-    .content .right-side{
-     width: 75%;
-     margin-left: 55px;
-  }
-  
-  .content .right-side .topic-text{
-    font-family: monospace;
-    font-weight: bold;
-    font-size: 25px;
-    text-align: justify;
-    /* font-weight: 600; */
-    color: #000000;
-    /* text-shadow: 2px 2px 4px #6BAA00; */
-  }
-  .right-side .button input[type="button"]{
-    color: #fff;
-    font-size: 18px;
-    outline: none;
-    border: none;
-    margin-left: 60%;
-    padding: 8px 16px;
-    border-radius: 6px;
-    background: #3f3f40;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  .button input[type="button"]:hover{
-    background: #151515;
-  }
-    
-    
 
 
 
@@ -2917,18 +2990,30 @@ body{
 .content .right-side .topic-text{
   font-family: monospace;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
+  text-align: justify;
   /* font-weight: 600; */
   color: #000000;
   /* text-shadow: 2px 2px 4px #6BAA00; */
 }
-.right-side .input-box{
-  height: 50px;
-  width: 100%;
-  margin: 12px 0;
+.content .right-side form{
+  margin-top: 20px;
 }
-.right-side .input-box input,
-.right-side .input-box textarea{
+.content .right-side label{
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1.2rem;
+  /* font-weight: 600; */
+  color: #000000;
+  /* text-shadow: 2px 2px 4px #6BAA00; */
+}
+.content .right-side .form-control{
+  height: 40px;
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+
+.content .right-side input{
   height: 100%;
   width: 100%;
   border: none;
@@ -2939,32 +3024,39 @@ body{
   padding: 0 15px;
   resize: none;
 }
-.right-side .message-box{
+.content .right-side textarea{
   min-height: 110px;
   position: relative;
+  height: 40px;
+  width: 100%;
+  margin: 0 0 10px 0;
+  background: #F0F1F8;
+  border-radius: 6px; 
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 0 15px;
+ 
 }
 
-.right-side .input-box textarea{
-  padding-top: 6px;
-}
-.right-side .button{
+
+.content .right-side .button-submit{
   display: inline-block;
   margin-top: 12px;
+  width: 150px;
+  height: 35px;
+  
 }
-.right-side .button input[type="button"]{
+.content .right-side .button-submit input{
+  background-color: #1a1a1a;
   color: #fff;
-  font-size: 18px;
-  outline: none;
-  border: none;
-  padding: 8px 16px;
-  margin-left: 0px;
-  border-radius: 6px;
-  background: #3f3f40;
-  cursor: pointer;
-  transition: all 0.3s ease;
 }
-.button input[type="button"]:hover{
-  background: #151515;
+
+.content .right-side .button-submit input:hover{
+  display: inline-block;
+  width: 150px;
+  height: 35px;
+  background-color: #404040db;
 }
 
 @media (max-width: 950px) {
@@ -2986,20 +3078,62 @@ body{
   color: #000000;
   /* text-shadow: 2px 2px 4px #6BAA00; */
 }
-.right-side .button input[type="button"]{
-  color: #fff;
-  font-size: 18px;
-  outline: none;
-  border: none;
-  margin-left: 60%;
-  padding: 8px 16px;
-  border-radius: 6px;
-  background: #3f3f40;
-  cursor: pointer;
-  transition: all 0.3s ease;
+.content .right-side label{
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1.2rem;
+  /* font-weight: 600; */
+  color: #000000;
+  /* text-shadow: 2px 2px 4px #6BAA00; */
 }
-.button input[type="button"]:hover{
-  background: #151515;
+.content .right-side .form-control{
+  height: 40px;
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+
+.content .right-side input{
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background: #F0F1F8;
+  border-radius: 6px;
+  padding: 0 15px;
+  resize: none;
+}
+.content .right-side textarea{
+  min-height: 110px;
+  position: relative;
+  height: 40px;
+  width: 100%;
+  margin: 0 0 10px 0;
+  background: #F0F1F8;
+  border-radius: 6px; 
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 0 15px;
+ 
+}
+.content .right-side .button-submit{
+  display: inline-block;
+  margin-top: 12px;
+  width: 150px;
+  height: 35px;
+  
+}
+.content .right-side .button-submit input{
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+.content .right-side .button-submit input:hover{
+  display: inline-block;
+  width: 150px;
+  height: 35px;
+  background-color: #404040db;
 }
 }
 @media (max-width: 820px) {
