@@ -2597,7 +2597,7 @@ h1 {
 }
 .projects h1{
   margin: 150px 0px 0px 0px;
-  font-family:monospace ;
+  /* font-family:monospace ; */
   font-weight: bold;
   color: #020202;
   text-align: center;
@@ -2608,18 +2608,45 @@ h1 {
   /* background-color: #0000004f; */
 }
 
-/* .projects li &bullet;{
-  color: #fff;
-  font-size: large;
-  
-} */
+
 .projects a{
   margin: 0px 0px 0px 0px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
   font-weight: 500;
   color: #333131;
-  
 }
+
+.projects .projects-detail{
+  margin-top: 50px;
+}
+.projects .projects-detail .column1{
+  background-color: #d4d2d2c0;
+} 
+.projects .projects-detail .column1 h3{
+  text-align: center;
+}
+.projects .projects-detail .column1 img{
+  margin-top: 20px;
+}
+.projects .projects-detail .column1 .SE-logo{
+  width: 20%;
+  margin: 20px 0 0 190px;
+}
+.projects .projects-detail .column1 p{
+  margin: 20px 0 0 0;
+  text-align: justify;
+  padding: 0 10px 5px 10px;
+  font-weight: 500;
+}
+
+.projects .projects-detail .column1 .btn{
+  margin: 20px 0 10px 200px;
+ 
+}
+
+
+
+
 
 
 @keyframes slide {
@@ -2791,37 +2818,43 @@ h1 {
         font-weight: 500;
         
       }
+ 
+ /* --------- Projects Responsive -------- */
 
-      .projects h1{
-        margin: 150px 0px 0px 0px;
-        font-family:monospace ;
-        font-weight: bolder;
-        color: #000000;
-        /* text-shadow: 2px 2px 4px #6d6d6d; */
-        text-align: center;
-        font-size: 25px;
-      }
-      .projects li a{
-        font-size: 12px;
-        font-weight: 550;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
-      }
+ .projects .projects-detail{
+  margin-top: 40px;
+}
+.projects .row .projects-detail .column1{
+  background-color: #d4d2d2c0;
+} 
+.projects .projects-detail .column1 h3{
+  text-align: center;
+  padding-top: 10px;
+}
+/* .projects .row .projects-detail .column1 img{
+  margin-top: 20px;
+  margin-right: -10px;
+} */
+.projects .projects-detail .column1 .SE-logo{
+  width: 20%;
+  margin: 20px 0 0 160px;
+}
+.projects .projects-detail .column1 p{
+  margin: 20px 0 0 0;
+  text-align: justify;
+  padding: 0 10px 5px 10px;
+  font-weight: 500;
+}
+
+.projects .projects-detail .column1 .btn{
+  margin: 20px 0 10px 150px;
+ 
+}
+      
 
 
      
-      /* .about h1{
-        margin: 30px 0px 0px 0px;
-        font-family:monospace ;
-        font-weight: bolder;
-        color:#000000;
-        text-align: center;
-        font-size: 25px;
-      }
-      .about p{
-        font-size: 11px;
-        text-align: justify
-        ;
-      } */
+    
 
       /* contact responsive  */
 
