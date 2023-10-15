@@ -2277,8 +2277,8 @@ h2 {
   color: #9e9e9ef9;
 
 }
-.active {
-  color: #77bf85;
+.nav .menu li .active {
+  color: #f9f9f9;
 }
 .nav .menu li{
   margin-top: -45px;
@@ -2620,7 +2620,8 @@ h1 {
   margin-top: 50px;
 }
 .projects .projects-detail .column1{
-  background-color: #d4d2d2c0;
+  /* background-color: #d4d2d2c0; */
+  border: 1px solid black;
 } 
 .projects .projects-detail .column1 h3{
   text-align: center;
@@ -2641,6 +2642,35 @@ h1 {
 
 .projects .projects-detail .column1 .btn{
   margin: 20px 0 10px 200px;
+ 
+}
+
+
+.projects .projects-detail .column2{
+  /* background-color: #d4d2d2c0; */
+  border: 1px solid black;
+} 
+.projects .projects-detail .column2 h3{
+  text-align: center;
+}
+/* .projects .row .projects-detail .column1 img{
+  margin-top: 20px;
+  margin-right: -10px;
+} */
+.projects .projects-detail .column2 .WireCutting-logo{
+  width: 25%;
+  margin: 5px 0 0 190px;
+  /* padding: 10px 0 0 10px; */
+}
+.projects .projects-detail .column2 p{
+  margin: 10px 0 0 0;
+  text-align: justify;
+  padding: 0 10px 10px 10px;
+  font-weight: 500;
+}
+
+.projects .projects-detail .column2 .btn{
+  margin:10px 0 10px 210px;
  
 }
 
@@ -2830,6 +2860,8 @@ h1 {
 .projects .projects-detail .column1 h3{
   text-align: center;
   padding-top: 10px;
+  font-size: 1.5rem;
+
 }
 /* .projects .row .projects-detail .column1 img{
   margin-top: 20px;
@@ -2837,7 +2869,7 @@ h1 {
 } */
 .projects .projects-detail .column1 .SE-logo{
   width: 20%;
-  margin: 20px 0 0 160px;
+  margin: 20px 0 0 140px;
 }
 .projects .projects-detail .column1 p{
   margin: 20px 0 0 0;
@@ -2845,12 +2877,42 @@ h1 {
   padding: 0 10px 5px 10px;
   font-weight: 500;
 }
-
 .projects .projects-detail .column1 .btn{
-  margin: 20px 0 10px 150px;
+  margin: 20px 0 10px 130px;
  
 }
       
+.projects .row .projects-detail .col-lg-6 .column2{
+  margin-top: 10px;
+} 
+.projects .row .projects-detail .column2{
+  margin-top: 10px;
+  background-color: #ffffffc0;
+} 
+.projects .projects-detail .column2 h3{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 1.5rem;
+}
+/* .projects .row .projects-detail .column1 img{
+  margin-top: 20px;
+  margin-right: -10px;
+} */
+.projects .projects-detail .column2 .WireCutting-logo{
+  width: 50%;
+  margin: 0 0 0 90px;
+}
+.projects .projects-detail .column2 p{
+  margin: 20px 0 0 0;
+  text-align: justify;
+  padding: 0 10px 5px 10px;
+  font-weight: 500;
+}
+
+.projects .projects-detail .column2 .btn{
+  margin: 20px 0 10px 130px;
+ 
+}
 
 
      
@@ -2860,7 +2922,7 @@ h1 {
 
    
       .content .right-side .topic-text{
-        font-family: monospace;
+        /* font-family: monospace; */
         font-weight: bold;
         font-size: 1rem;
         text-align: justify;
@@ -2872,7 +2934,7 @@ h1 {
         margin-top: 20px;
       }
       .content .right-side label{
-        font-family: monospace;
+        /* font-family: monospace; */
         font-weight: bold;
         font-size: 1rem;
         /* font-weight: 600; */
@@ -3021,7 +3083,7 @@ body{
   margin-left: 75px;
 }
 .content .right-side .topic-text{
-  font-family: monospace;
+  /* font-family: monospace; */
   font-weight: bold;
   font-size: 25px;
   text-align: justify;
@@ -3033,7 +3095,7 @@ body{
   margin-top: 20px;
 }
 .content .right-side label{
-  font-family: monospace;
+  /* font-family: monospace; */
   font-weight: bold;
   font-size: 1.2rem;
   /* font-weight: 600; */
@@ -3103,18 +3165,18 @@ body{
 }
 
 .content .right-side .topic-text{
-  font-family: monospace;
+  /* font-family: monospace; */
   font-weight: bold;
-  font-size: 25px;
+  font-size: 1.3rem;
   text-align: justify;
-  /* font-weight: 600; */
+  font-weight: bold;
   color: #000000;
   /* text-shadow: 2px 2px 4px #6BAA00; */
 }
 .content .right-side label{
-  font-family: monospace;
-  font-weight: bold;
-  font-size: 1.2rem;
+  /* font-family: monospace; */
+  font-weight: 700;
+  font-size: 0.8rem;
   /* font-weight: 600; */
   color: #000000;
   /* text-shadow: 2px 2px 4px #6BAA00; */
